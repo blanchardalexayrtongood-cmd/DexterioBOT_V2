@@ -1,0 +1,3 @@
+symbol,direction,entry_time,exit_time,entry_price,exit_price,stop_price,tp_price,size,risk_amount,risk_pct,pnl,pnl_pct,r_multiple,leverage,htf_bias,smt_tag,context,tp1_hit,tp2_hit,grade,setup_score
+ES=F,short,2025-11-24T09:50:00-05:00,2025-11-24T09:54:00-05:00,6649.75,6666.0,6666.0,6601.0,1.2030527463438474,19.54960712808752,1.954960712808752,-19.54960712808752,-1.954960712808752,-1.0,8.0,short,,bias_short_bos,False,False,A+,9
+ES=F,short,2025-11-25T10:03:00-05:00,2025-11-25T10:08:00-05:00,6693.25,6713.75,6713.75,6631.75,0.9565369686555244,19.60900785743825,2.0,-19.60900785743825,-2.0,-1.0,6.529999999999999,short,,bias_short_bos,False,False,A+,9

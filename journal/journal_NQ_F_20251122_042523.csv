@@ -1,0 +1,2 @@
+symbol,strategy_mode,risk_profile,timeframe,lookback_days,entry_time,exit_time,direction,entry_price,stop_price,tp1_price,tp_price,exit_price,size,risk_amount,risk_pct,pnl,pnl_pct,r_multiple,leverage,htf_bias,smt_tag,context,tp1_hit,tp2_hit,grade,setup_score
+NQ=F,full_trader_pro,normal,1m,6,2025-11-17T13:55:00-05:00,2025-11-17T18:01:00-05:00,short,24926.75,24926.75,24802.75,24554.75,24926.75,0.16129032258064516,20.0,2.0,10.0,1.0,0.5,4.020443548387097,short,ok,nq_bos+conf+smt,True,False,A,75

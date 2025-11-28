@@ -1,0 +1,22 @@
+{
+  "mode": "backtest",
+  "strategy_mode": "fusion",
+  "risk_profile": "normal",
+  "risk_params": {
+    "max_risk_per_trade_pct": 2.0,
+    "max_daily_loss_pct": 10.0,
+    "max_daily_trades": 6,
+    "max_portfolio_risk_pct": 10.0,
+    "max_leverage": 8.0
+  },
+  "symbols": ["ES=F", "NQ=F"],
+  "timeframe": "1m",
+  "lookback_days": 6,
+  "initial_capital": 1000.0,
+  "session": {
+    "killzone_only": true
+  },
+  "discord": {
+    "webhook_url": "https://discordapp.com/api/webhooks/1440846187292000429/1uZW0zLfS9rclZBiKuoYZvBtFG40m-AjhDNAYpY7gKjuYkbDU7_PRPR4EDifKhgyz-DF"
+  }
+}
