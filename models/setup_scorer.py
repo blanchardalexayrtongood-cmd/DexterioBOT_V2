@@ -131,10 +131,20 @@ def score_setup_cjr(ctx: SetupContext) -> SetupScore:
 
 
 def should_trade_es(score: SetupScore) -> bool:
-    return score.grade in ("A+", "A")
+    """
+    ES : on autorise A+, A et B.
+    Ça reste sélectif, mais pas ultra ultra strict.
+    """
+    return score.grade in ("A+", "A", "B")
 
 
 def should_trade_nq(score: SetupScore, daily_r_running: float, daily_r_limit: float = -2.0) -> bool:
+    """
+    NQ mode debug : on garde juste la protection sur le daily R,
+    mais on NE bloque plus sur le grade/score pour l'instant.
+    Ça permet de vérifier que la mécanique d'engine NQ est OK.
+    """
     if daily_r_running <= daily_r_limit:
-        return False
-    return score.grade in ("A+", "A") and score.score >= 8
+        return False  # coupe la journée si trop de pertes
+    return True
+

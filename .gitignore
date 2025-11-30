@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Venv local
+.venv/
+
+# Données & cache
+cache/
+cache_old/
+
+# Résultats de backtests
+journal/
+plots/
+
+# Logs
+*.log

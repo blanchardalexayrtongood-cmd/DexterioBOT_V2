@@ -1,3 +1,0 @@
-symbol,direction,entry_time,exit_time,entry_price,exit_price,stop_price,tp_price,size,risk_amount,risk_pct,pnl,pnl_pct,r_multiple,leverage,htf_bias,smt_tag,context,tp1_hit,tp2_hit,grade,setup_score
-NQ=F,short,2025-11-21T10:00:00-05:00,2025-11-21T10:06:00-05:00,24157.0,24208.75,24208.75,24001.75,0.33116694953843606,17.137889638614066,1.7137889638614063,-17.137889638614066,-1.7137889638614063,-1.0,8.0,short,,bias_short_bos_sweep,True,False,A+,10
-NQ=F,long,2025-11-24T09:59:00-05:00,2025-11-24T10:42:00-05:00,24683.5,24804.25,24643.25,24804.25,0.31854870188146284,12.82158525072888,1.3045151619502908,38.46475575218664,3.9135454858508725,3.0,8.0,long,,bias_long_bos_sweep,True,True,A+,10
